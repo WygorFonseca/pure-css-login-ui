@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+    margin-top:0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-rows: 25vh 50vh 10vh;
+    padding: 0 2em 0 2em;
+}
+.container > *{
+    justify-self: center;
+    align-self: center;
+}
+.text-center{
+    text-align: center;
+}
+form > * {
+    border: 0;
+    height: 55px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.form-ui-control{
+    background: rgba(224, 40, 111, 0.08);
+}
+.form-ui-control:focus{
+    outline: none;
+}
+.form-button{
+    background: rgb(224, 40, 111);
+    color: white;
+    font-size: 11pt;
+    opacity: 1.0;
+    transition: opacity cubic-bezier(0.04, 0.35, 0.37, 0.53) 0.25s;
+}
+.form-button:focus, .form-button:hover{
+    box-shadow: none;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity cubic-bezier(0.04, 0.35, 0.37, 0.53) 0.25s;
+}
+.margin-bottom-2{
+    margin-bottom: 2rem;
+}
+.text-color-grey{
+    color: grey;
+}
